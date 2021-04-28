@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rammetto One', cursive;
+ /*   margin-bottom: 0px; */
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0; /* top, left , right bottom are for fixed position elements */
+    z-index: 1;
+
+}
+
+#header-top {
+    display: flex;
+ /*    background: linear-gradient(#c45b5b, #db6bc9); */
+    background:rgb(152, 198, 235);
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+
+#left {
+    display: flex;
+}
+
+#logopic {
+    width: 100px;
+    height: 100px;
+}
+
+#logo {
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 20px;
+   /* border: 1px solid red; */
+    color: rgb(14, 11, 11);
+}
+
+#right div {
+    padding: 20px;
+}
+
+#right div a {
+    text-decoration: none;
+    color: #333;
+
+}
+
+#right div a:hover {
+    text-decoration: underline;
+}
+
+#header-bottom {
+    width: 100%;
+    height: 3px;
+    background-color: #ee71d3; 
+    position: relative;
+}
+
+main {
+    position: relative;
+}
+#covertext {
+    position: absolute;
+    bottom: 40%;
+    left: 25%;
+    font-size: 100px;
+    color: #ee71d3;
+    text-decoration: none;
+}
+
+#clickanywhere {
+    position: absolute;
+    bottom: 40%;
+    left: 25%;
+    font-weight: lighter;
+}
+

@@ -1,0 +1,103 @@
+main {
+    margin-top: 125px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+#menu {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#age, #color, #aesthetic {
+    border: 3px solid #333;
+    margin: 2px;
+    padding: 5px;
+}
+
+#age-header, #color-header, #aesthetic-header {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.check {
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+}
+
+.pink {
+    background-color:rgb(245, 142, 228);
+}
+
+.check:hover {
+    cursor: pointer;
+}
+
+
+.age, .color, .aesthetic {
+    padding-left: 5px;
+}
+
+.hamster {
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    left: 20px;
+    top: 70%;
+    background-color: rgb(245, 142, 228);
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.7;
+    border: 2px solid rgb(11, 11, 24);
+}
+.pic {
+    width: 500px;
+    height: 80%;
+}
+
+.hamster:hover {
+    opacity: 0.9;
+    transition-delay: .05s;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+    }
+
+.full {
+    position: fixed;
+    top: 25%;
+    right: 30%; 
+}
+
+#full-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
